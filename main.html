@@ -9,34 +9,34 @@
 <body>
 	<form method="get">
 		<label for="name">Name</label>
-		<input type="name" id="#name" required>   <br><br>
+		<input type="name" id="name" required>   <br><br>
 
 		<label for="email" class="email">Email</label>
-		<input type="email" id="#email" required>  <br><br>
+		<input type="email" id="email" required>  <br><br>
 
 		<label for="gender">Gender</label>&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;
 		<label for="male">Male</label>
-		<input type="radio" name="gender">
+		<input type="radio" name="gender" required>
 
 		<label for="female">Female</label>
-		<input type="radio" name="gender">  <br><br>
+		<input type="radio" name="gender" required>  <br><br>
 
-		<label for="carbrand" id="#car">Car Brands</label>&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;
-		<select name="car" required>
+		<label for="carbrand">Car Brands</label>&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;&puncsp;
+		<select name="car" id="cars" required>
 			<option value="none" hidden selected></option>
 			<option value="bmw">BMW</option>
 			<option value="audi">Audi</option>
 			<option value="mercedez">Mercedez</option>
 		</select>   <br><br>
 
-		<label for="carage" id="#carage">Car Age</label>
-		<input type="tel" required>   <br><br>
+		<label for="carage">Car Age</label>
+		<input type="tel" required id="carage">   <br><br>
 
 		<label for="dop">Date of Purchase</label>
-		<input type="date" required>   <br><br>
+		<input type="date" required id="dop">   <br><br>
 
-		<label for="#password">Password</label>
-		<input type="password" required><br><br>
+		<label for="password">Password</label>
+		<input type="password" id="password" required><br><br>
 
 		<button type="submit">Submit</button>
 		
